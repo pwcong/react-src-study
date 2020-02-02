@@ -1,6 +1,6 @@
 # React 源码解析
 
-**Copy of [Jokcy](https://react.jokcy.me/)**
+> **Copy from [Jokcy](https://react.jokcy.me/)**
 
 在开始想写本书之前，我已经花了将近一个月的时间阅读 React 的源码，在真正做之前，我一直觉得这不会是一件很难的事情，但是到真正开始阅读之后，我才发现，事情并没有我想的那么简单。
 
@@ -41,10 +41,10 @@ export const ProfileMode = 0b100
 
 接下来展示一下 React 的调度过程：
 
-![FiberScheduler]()
+![FiberScheduler](https://github.com/pwcong/react-src-study/raw/master/other/scheduler-fiber-scheduler.png)
 
 以及渲染更新的过程
 
-![ReactScheduler]()
+![ReactScheduler](https://github.com/pwcong/react-src-study/raw/master/other/scheduler-render-root.png)
 
 在这个网站你看到的内容会主要围绕着这两者来，这也是 React 当中最复杂的部分。那么话不多说，请继续阅读吧。
